@@ -41,7 +41,6 @@ body {
 	border-right: 1px solid #d4d4d4;
 	border-bottom: 1px solid #d4d4d4;
 
-	
 	background: linear-gradient(135deg, #f9fafb, #e9ecef);
 	color: #333; 
 	border: 1px solid #d4d4d4;
@@ -58,6 +57,7 @@ body {
 	max-width: 1200px;
 	margin-left: auto;
 	margin-right: auto;
+  margin-top: 80px;
 	border-radius: 10px;
 }
 #content {
