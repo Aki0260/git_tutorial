@@ -1,0 +1,122 @@
+/*
+Copyright (c) 2010, Yahoo! Inc. All rights reserved.
+Code licensed under the BSD License:
+http://developer.yahoo.com/yui/license.html
+version: 2.8.1
+*/
+
+/*CSSリセット*/
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,cite,code,dfn,em,strong,th,var,optgroup{font-style:inherit;font-weight:inherit;}del,ins{text-decoration:none;}li{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}q:before,q:after{content:'';}abbr,acronym{border:0;font-variant:normal;}sup{vertical-align:baseline;}sub{vertical-align:baseline;}legend{color:#000;}input,button,textarea,select,optgroup,option{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;}input,button,textarea,select{font-size:100%;}
+
+/*
+Copyrig
+ht (c) 2010, Yahoo! Inc. All rights reserved.
+Code licensed under the BSD License:
+http://developer.yahoo.com/yui/license.html
+version: 2.8.1
+*/
+body{
+	font:13px/1.231 arial,helvetica,clean,sans-serif;font-size:small;
+	font:x-small;}
+	select,input,button,textarea,button
+	{font:99% arial,helvetica,clean,sans-serif;
+	}table
+	{font-size:inherit;font:100%;}
+	pre,code,kbd,samp,tt
+	{font-family:monospace;font-size:108%;line-height:100%;}
+
+
+body {
+  background-color: #201d1d5e; 
+  color: #333;
+}
+
+#wrap {
+	width: 802px;
+	margin: 0 auto;
+}
+
+#head {
+	border-left: 1px solid #d4d4d4;
+	border-right: 1px solid #d4d4d4;
+	border-bottom: 1px solid #d4d4d4;
+
+	
+	background: linear-gradient(135deg, #f9fafb, #e9ecef);
+	color: #333; 
+	border: 1px solid #d4d4d4;
+	padding: 2rem 1rem;
+	margin-bottom: 2rem;
+
+	/*テキスト中央寄せ、可変サイズ*/
+	text-align: center;
+	font-size: 1.5rem;
+	line-height: 1.3;
+
+	/*幅を可変、中央寄せ*/
+	width: 90%;
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
+}
+#content {
+	padding: 20px;
+	width: 720px;
+	min-height: 490px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	font-size: 153.9%;
+}
+
+#content div {
+    margin-top: 2rem; 
+    text-align: center; 
+}
+
+
+#content .login a {
+    display: inline-block; 
+    padding: 0.8rem 1.5rem;      
+    font-size: 1rem;
+    font-weight: bold;   
+    color: black;       
+    background-color: white;    
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    margin-top: 1rem;            
+    text-align: center;
+}
+
+/* ホバー時 */
+#content .login a:hover {
+    background-color: gray;
+}
+
+/*スマホ向け*/
+@media(max-width: 600px){
+	#head{
+		font-size: 1.2rem;
+		padding: 1.5rem 1rem;
+	}
+}
+
+h1 {
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 197%;
+	font-weight: bold;
+}
+* html #content {
+	height: 490px;
+}
+
+p {
+	line-height: 2rem;
+	margin-bottom: 0.5rem;
+}
+
+
